@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SOUNDLY</string>
+    <string name="buttonStart">START</string>
+    <string name="buttonPackA">Animals</string>
+    <string name="buttonPackS">Sounds</string>
+    <string name="textviewPick">Pick a pack:</string>
+    <string name="buttonS1">Sound 1</string>
+    <string name="buttonS2">Sound 2</string>
+    <string name="buttonS3">Sound 3</string>
+    <string name="buttonS4">Sound 4</string>
+    <string name="buttonS5">Sound 5</string>
+    <string name="buttonS6">Sound 6</string>
+
+    <string name="buttonA1">Dog</string>
+    <string name="buttonA2">Cat</string>
+    <string name="buttonA3">Cow</string>
+    <string name="buttonA4">Chicken</string>
+    <string name="buttonA5">Horse</string>
+    <string name="buttonA6">Pig</string>
+</resources>

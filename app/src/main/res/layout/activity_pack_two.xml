@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phan.sdmesa.soundly.PackTwo">
+
+    <Button
+        android:id="@+id/buttonDog"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/Color1"
+        android:text="@string/buttonA1"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/buttonCat"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonDog"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:backgroundTint="@color/Color2"
+        android:text="@string/buttonA2"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/buttonCow"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/buttonDog"
+        android:layout_alignStart="@+id/buttonDog"
+        android:layout_below="@+id/buttonDog"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="@string/buttonA3"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/buttonChicken"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/buttonCow"
+        android:layout_alignBottom="@+id/buttonCow"
+        android:layout_alignLeft="@+id/buttonCat"
+        android:layout_alignStart="@+id/buttonCat"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="@string/buttonA4"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/buttonHorse"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/buttonCow"
+        android:layout_alignStart="@+id/buttonCow"
+        android:layout_below="@+id/buttonCow"
+        android:layout_marginTop="91dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="@string/buttonA5"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/buttonPig"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/buttonHorse"
+        android:layout_alignBottom="@+id/buttonHorse"
+        android:layout_alignLeft="@+id/buttonChicken"
+        android:layout_alignStart="@+id/buttonChicken"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="@string/buttonA6"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.phan.sdmesa.soundly.Packs">
+
+    <Button
+        android:id="@+id/buttonPack1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/buttonPackS"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/buttonPack2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPack1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonPack1"
+        android:layout_marginBottom="106dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="@string/buttonPackA"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textviewPick"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/packs"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/buttonPack1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="17dp"
+        app:srcCompat="@drawable/packa"
+        android:layout_above="@+id/buttonPack2"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+</RelativeLayout>

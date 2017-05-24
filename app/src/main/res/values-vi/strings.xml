@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SOUNDLY</string>
+    <string name="buttonA1">Chó</string>
+    <string name="buttonA2">Mèo</string>
+    <string name="buttonA3">Bò</string>
+    <string name="buttonA4">Gà</string>
+    <string name="buttonA5">Ngựa</string>
+    <string name="buttonA6">Heo</string>
+    <string name="buttonPackA">Động Vật</string>
+    <string name="buttonPackS">Âm Thanh</string>
+    <string name="buttonS1">Tiếng 1</string>
+    <string name="buttonS2">Tiếng 2</string>
+    <string name="buttonS3">Tiếng 3</string>
+    <string name="buttonS4">Tiếng 4</string>
+    <string name="buttonS5">Tiếng 5</string>
+    <string name="buttonS6">Tiếng 6</string>
+    <string name="buttonStart">Đi</string>
+    <string name="textviewPick">Chọn một:</string>
+</resources>
